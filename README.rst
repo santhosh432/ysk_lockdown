@@ -1,8 +1,5 @@
 YSK lock down to make user lock
 
-YSK_DJANGO_LOCK-DOWN
-===============
-
 This is a django application for user lock down after 5 incorrect attempts.
 
 Installable App
@@ -13,7 +10,7 @@ This app can be installed and used in your django project by:
 
 .. code-block:: bash
 
-    $ pip install pip install ysk-django-lockdown
+    $ pip install ysk-django-lockdown
 
 
 Edit your `settings.py` file to include `'lockdown'` in the `INSTALLED_APPS`
